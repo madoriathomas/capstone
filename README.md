@@ -59,9 +59,10 @@ Email: deaudrey011@gmail.com
 ## Repository Structure
 
 ```
-├── README.md                           
-├── Main.ipynb   
-├── Presentation.pdf   
-├── data                                
+├── headline_word2vec.ipynb
+├── headline_modeling.ipynb                        
+├── headline_EDA.ipynb  
+├── README.md  
+├── models                                
 └── data 
 ```
