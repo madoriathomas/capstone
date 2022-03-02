@@ -49,6 +49,8 @@ The target is the ‘topic’ column in which there are 8 categories: TECHNOLOGY
 ## For More Information
 For any additional questions, please contact me at:
 
+Email: deaudrey011@gmail.com
+
 ## Repository Structure
 
 ```
@@ -56,5 +58,5 @@ For any additional questions, please contact me at:
 ├── Main.ipynb   
 ├── Presentation.pdf   
 ├── data                                
-└── images 
+└── data 
 ```
