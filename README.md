@@ -1,4 +1,4 @@
-# News Headline Classification Analysis
+# What's New? Headline Classification Analysis
 
 **Author:** _Madoria Thomas_
 
@@ -6,11 +6,16 @@
 
 ## Overview
 
+There is much speculation as to when exactly newspapers became a source of news, but there is evidence that proves they were circulated as early as 202 BC in ancient China. It would take until about 1440 when Johannes Gutenberg invented the moving printing press that the first newspapers as we know them would appear in Europe where they could more quickly be mass produced. From there, the first true newspaper in America would eventually pop up in 1690 in Boston. Of course now in the digital age, the need for actual newspapers has waned in favor of online news sources. In addition, certain niches and industries might prefer being online rather than in print.[source](https://www.psprint.com/resources/newspaper-history/)
 
+The concept of ‘digital burnout’ is also becoming more and more of a real thing causing feelings of exhaustion to even diminished interest for being online. In current pandemic times, online work and play has become more interconnected which could lead to a higher risk of burnout in this digital age.[source](https://www.mcleanhospital.org/essential/fighting-digital-burnout)
+
+There are more news sources online than ever before which is where I step in.
 
 ***
 ## Business Problem
 
+With the constant barrage of information available on the internet, the New York Times (NYT) has hired me to come up with a solution to navigate the deep well of knowledge that is the internet. My solution to this is to build a news classifier to accurately guess what the topic is from the headline, and vice versa. The aim is to use this particular model to source news only in certain topics and/or keywords that the user is interested in. 
 
 ***
 ## Data
