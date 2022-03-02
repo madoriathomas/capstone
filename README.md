@@ -15,7 +15,7 @@ There are more news sources online than ever before which is where I step in.
 ***
 ## Business Problem
 
-With the constant barrage of information available on the internet, the New York Times (NYT) has hired me to come up with a solution to navigate the deep well of knowledge that is the internet. My solution to this is to build a news classifier to accurately guess what the topic is from the headline, and vice versa. The aim is to use this particular model to source news only in certain topics and/or keywords that the user is interested in. 
+With the constant barrage of information available on the internet, I have been tasked by the New York Times (NYT) to find a provide a quick and easily accessible news solution for users who may already be overwhelmed. My goal is to build a news classifier to accurately guess what the topic is from the headline, and vice versa. The model could then be utilized by the user to only show them the news stories they are interested in at that particular time. 
 
 ***
 ## Data
