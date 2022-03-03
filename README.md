@@ -6,9 +6,7 @@
 
 ## Overview
 
-There is much speculation as to when exactly newspapers became a source of news, but there is evidence that proves they were circulated as early as 202 BC in ancient China. It would take until about 1440 when Johannes Gutenberg invented the moving printing press that the first newspapers as we know them would appear in Europe where they could more quickly be mass produced. From there, the first true newspaper in America would eventually pop up in 1690 in Boston. Of course now in the digital age, the need for actual newspapers has waned in favor of online news sources. In addition, certain niches and industries might prefer being online rather than in print.[source](https://www.psprint.com/resources/newspaper-history/)
-
-The concept of ‘digital burnout’ is also becoming more and more of a real thing causing feelings of exhaustion to even diminished interest for being online. In current pandemic times, online work and play has become more interconnected which could lead to a higher risk of burnout in this digital age.[source](https://www.mcleanhospital.org/essential/fighting-digital-burnout)
+There is much speculation as to when exactly newspapers became a source of news, but there is evidence that proves they were circulated as early as 202 BC in ancient China. It would take until about 1440 when Johannes Gutenberg invented the moving printing press that the first newspapers as we know them would appear in Europe where they could more quickly be mass produced. From there, the first true newspaper in America would eventually pop up in 1690 in Boston. Of course now in the digital age, the need for paper newspapers has waned in favor of online news sources. In addition, certain niches and industries might prefer being online rather than in print.[source](https://www.psprint.com/resources/newspaper-history/)
 
 There are more news sources online than ever before which is where I step in.
 
@@ -43,12 +41,17 @@ The target is the ‘topic’ column in which there are 8 categories: TECHNOLOGY
 
 
 ***
-## Conclusion
+## Recommendations
 
+- Use model to predict news topics by their headline
+- Use model to only show topics/headlines user is interested in at that time
 
 ***
 ## Next Steps
 
+- Expand the range of topics already offered
+- Continue crafting a more user-friendly interface
+- Look into possible membership page or email newsletter 
 
 ***
 ## For More Information
