@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run ames_prediction_app.py
