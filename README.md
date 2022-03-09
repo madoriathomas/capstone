@@ -29,16 +29,18 @@ At a glance:</br>
 
 The target is the ‘topic’ column in which there are 8 categories: TECHNOLOGY, HEALTH, WORLD, ENTERTAINMENT, SPORTS, BUSINESS, NATION, and SCIENCE. Each topic has 15000 rows except for ‘SCIENCE’ with only 3774. 
 
+Not used: I have a demo "data_scrape" notebook I created using the NewsCatcherAPI. The "scrape_news_articles.csv" containing the results is also available with an extra 31994 rows of data, but I kept it on standby for simplicity. 
+
 ***
 ## Methods
 
-
-
+First, I cleaned the data before diving into the modeling process. As with the common NLP procedure, I lowercased, tokenized, lemmatized, removed stop words, and vectorized.</br>
+Second, I tried multiple iterations of random forest classifers, knearest neighbors, and multinominalNB before my final model. 
 
 ***
 ## Results
 
-
+The final model which is a MultinominalNB with an alpha tuned to 0.25 ended up as the best model. Accuracy was at 80% while recall and preceision were both at 81%.
 
 ***
 ## Recommendations
@@ -62,10 +64,13 @@ Email: deaudrey011@gmail.com
 ## Repository Structure
 
 ```
-├── headline_word2vec.ipynb
-├── headline_modeling.ipynb                        
-├── headline_EDA.ipynb  
-├── README.md  
+├── setup.sh
+├── requirements.txt
+├── README.md
+├── Procfile
+├── news_preds.py                        
+├── environment.yml  
+├── notebooks 
 ├── models                                
 └── data 
 ```
