@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run ames_prediction_app.py
+web: sh setup.sh && streamlit run news_preds.py
