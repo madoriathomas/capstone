@@ -1,4 +1,4 @@
-from copyreg import pickle
+import pickle
 import streamlit as st
 import pandas as pd
 
@@ -11,7 +11,7 @@ headline_input= st.text_input(
     max_chars= 120
 )
 
-loaded_model = pickle.load(open('../models/mnb_model.pkl', 'rb'))
+loaded_model = pickle.load(open('models/mnb_model.pkl', 'rb'))
 
 
 if st.button('Generate Predictions'):
