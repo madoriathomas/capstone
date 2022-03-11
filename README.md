@@ -35,12 +35,12 @@ Not used: I have a demo "data_scrape" notebook I created using the NewsCatcherAP
 ## Methods
 
 First, I cleaned the data before diving into the modeling process. As with the common NLP procedure, I lowercased, tokenized, lemmatized, removed stop words, and vectorized.</br>
-Second, I tried multiple iterations of random forest classifers, knearest neighbors, and multinominalNB before my final model. 
+Second, I tried multiple iterations of random forest classifers, and multinominalNB before my final model. 
 
 ***
 ## Results
 
-The final model which is a MultinominalNB with an alpha tuned to 0.25 ended up as the best model. Accuracy was at 80% while recall and preceision were both at 81%.
+The final model which is a MultinominalNB with an alpha tuned to 0.25 ended up as the best model. Accuracy was at 80% while recall and precision were both at 81%.
 
 ***
 ## Recommendations
@@ -57,6 +57,8 @@ The final model which is a MultinominalNB with an alpha tuned to 0.25 ended up a
 
 ***
 ## For More Information
+Feel free to check out how I came to my analysis in my ML [notebook](https://github.com/madoriathomas/headline_classification/blob/main/notebooks/headline_modeling.ipynb) and my [presentation](https://github.com/madoriathomas/headline_classification/blob/main/news_classification.pdf). 
+
 For any additional questions, please contact me at:
 
 Email: deaudrey011@gmail.com
@@ -68,7 +70,8 @@ Email: deaudrey011@gmail.com
 ├── requirements.txt
 ├── README.md
 ├── Procfile
-├── news_preds.py                        
+├── news_preds.py 
+├── news_classification.pdf
 ├── environment.yml  
 ├── notebooks 
 ├── models                                
